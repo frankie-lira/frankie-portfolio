@@ -12,9 +12,9 @@ function App() {
       <main className="main-content">
         <Routes>
           <Route path="/" element={<About />} />
+          <Route path="/projects" element={<ProjectGallery />} />
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<ProjectGallery />} />
         </Routes>
       </main>
     </div>
