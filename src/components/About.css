@@ -1,0 +1,93 @@
+.about-container {
+    padding: 2rem;
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  .about-top {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .about-photo img {
+    border-radius: 12px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-sections section {
+    margin-bottom: 2rem;
+  }
+  
+  .about-sections h3 {
+    font-size: 1.4rem;
+    color: #0077cc;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-sections ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    background-color: #e8f0fe;
+    color: #003366;
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+  }
+  
+  /* Desktop layout */
+  @media (min-width: 768px) {
+    .about-top {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .about-photo {
+      flex-shrink: 0;
+    }
+  
+    .about-text {
+      flex: 1;
+    }
+  }
+
+  .resume-link {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .resume-link a {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+  
+  .resume-link a:hover {
+    background-color: #005fa3;
+  }
