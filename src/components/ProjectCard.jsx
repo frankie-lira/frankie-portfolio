@@ -1,33 +1,22 @@
+import { Link } from 'react-router-dom';
 import './ProjectCard.css';
 
-function ProjectCard({ title, image, video, year }) {
-  const id = title.replace(/\s+/g, '-').toLowerCase(); // For unique IDs
-  
-    return (
-      <article
-        className="project-card"
-        tabIndex={0}
-        role="group"
-        aria-labelledby={`${id}-title`}
-        aria-describedby={`${id}-desc`}
-      >
+function ProjectCard({ id, title, image, video, year }) {
+  const url = `/projects/${id}`;
+
+  return (
+    <Link to={url} className="project-card-link">
+      <article className="project-card" tabIndex={0}>
         {video ? (
-        <video
-          src={video}
-          muted
-          autoPlay
-          loop
-          playsInline
-          className="project-media"
-          aria-hidden="true"
-        />
-      ) : (
-        <img src={image} alt={`Thumbnail of ${title}`} className="project-media" />
-      )}
-      <h3 id={`${id}-title`}>{title}</h3>
-      <p id={`${id}-desc`}>{year}</p>
+          <video src={video} muted autoPlay loop playsInline className="project-media" />
+        ) : (
+          <img src={image} alt={`Thumbnail of ${title}`} className="project-media" />
+        )}
+        <h3>{title}</h3>
+        <p>{year}</p>
       </article>
-    );
-  }
-  
-  export default ProjectCard;
+    </Link>
+  );
+}
+
+export default ProjectCard;

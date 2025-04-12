@@ -1,0 +1,41 @@
+.project-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .project-details-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-media-wrapper {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .project-media {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+  }
+  
+  /* Description section */
+  .project-meta p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 600px) {
+    .project-details {
+      padding: 1rem;
+    }
+  
+    .project-details-title {
+      font-size: 1.5rem;
+    }
+  }
