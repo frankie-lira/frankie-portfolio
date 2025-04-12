@@ -36,13 +36,20 @@ const projects = [
 
 function Projects() {
   return (
-    <section className="gallery">
-      {projects.map((proj, idx) => (
-        <ProjectCard key={idx} {...proj} />
-      ))}
+    <section
+      id="projects"
+      role="region"
+      aria-labelledby="projects-heading"
+    >
+      <h2 id="projects-heading">Projects</h2>
+
+      <div className="gallery">
+        {projects.map((proj, idx) => (
+          <ProjectCard key={idx} {...proj} />
+        ))}
+      </div>
     </section>
   );
 }
-
 
 export default Projects;
