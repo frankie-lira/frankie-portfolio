@@ -83,13 +83,37 @@ body {
 
 .sidebar-nav .active {
   font-weight: 700;
-  color: #000;
+  color: #ff0000;
 }
 
 .sidebar-nav .inactive {
   opacity: 0.5;
 }
 
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #555;
+  display: block;
+  padding: 0.5rem 0;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+/* Custom active colors */
+.nav-link.projects.active {
+  color: #0077cc; /* blue */
+}
+
+.nav-link.experience.active {
+  color: #1e9e62; /* green */
+}
+
+.nav-link.about.active {
+  color: #cc0000; /* red */
+}
 /* Main Content */
 .main-content {
   flex: 1;

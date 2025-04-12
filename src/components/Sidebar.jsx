@@ -8,9 +8,32 @@ function Sidebar() {
       </Link>
 
       <nav className="sidebar-nav">
-        <NavLink to="/projects">Projects</NavLink>
-        <NavLink to="/experience">Experience</NavLink>
-        <NavLink to="/about">About Me</NavLink>
+      <NavLink
+  to="/projects"
+  className={({ isActive }) =>
+    isActive ? "nav-link projects active" : "nav-link projects"
+  }
+>
+  Projects
+</NavLink>
+
+<NavLink
+  to="/experience"
+  className={({ isActive }) =>
+    isActive ? "nav-link experience active" : "nav-link experience"
+  }
+>
+  Experience
+</NavLink>
+
+<NavLink
+  to="/about"
+  className={({ isActive }) =>
+    isActive ? "nav-link about active" : "nav-link about"
+  }
+>
+  About Me
+</NavLink>
       </nav>
     </aside>
   );
