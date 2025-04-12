@@ -1,7 +1,7 @@
 import './ProjectCard.css';
 
-function ProjectCard({ title, image, year }) {
-    const id = title.replace(/\s+/g, '-').toLowerCase(); // For unique IDs
+function ProjectCard({ title, image, video, year }) {
+  const id = title.replace(/\s+/g, '-').toLowerCase(); // For unique IDs
   
     return (
       <article
@@ -11,9 +11,21 @@ function ProjectCard({ title, image, year }) {
         aria-labelledby={`${id}-title`}
         aria-describedby={`${id}-desc`}
       >
-        <img src={image} alt={`Thumbnail of ${title}`} />
-        <h3 id={`${id}-title`}>{title}</h3>
-        <p id={`${id}-desc`}>{year}</p>
+        {video ? (
+        <video
+          src={video}
+          muted
+          autoPlay
+          loop
+          playsInline
+          className="project-media"
+          aria-hidden="true"
+        />
+      ) : (
+        <img src={image} alt={`Thumbnail of ${title}`} className="project-media" />
+      )}
+      <h3 id={`${id}-title`}>{title}</h3>
+      <p id={`${id}-desc`}>{year}</p>
       </article>
     );
   }

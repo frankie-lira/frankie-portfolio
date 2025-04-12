@@ -4,12 +4,12 @@ import './Projects.css';
 const projects = [
   {
     title: 'Adobe',
-    image: '/images/adobe.jpg',
+    image: '/images/AIFrankie.jpg',
     year: '2024',
   },
   {
     title: 'Inclusive Interaction Lab at UC Merced',
-    image: '/images/merced.jpg',
+    image: '/images/AIFrankie.jpg',
     year: '2024',
   },
   {
