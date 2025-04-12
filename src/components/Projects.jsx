@@ -13,7 +13,7 @@ const projects = [
   {
     id: 'inclusive-lab',
     title: 'Inclusive Interaction Lab at UC Merced',
-    image: '/images/AIFrankie.jpg',
+    image: '/images/ColorSpectrum.jpg',
     year: '2024',
     description: 'Research work on accessibility tools for underrepresented groups.'
   },
@@ -27,7 +27,7 @@ const projects = [
   {
     id: 'neuroleap',
     title: 'NeuroLeap',
-    image: '/images/neuro.jpg',
+    image: '/images/ColorSpectrum.jpg',
     year: '2024',
     description: 'Built a mobile neurofeedback app.'
   },
