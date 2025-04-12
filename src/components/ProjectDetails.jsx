@@ -1,7 +1,8 @@
 import { useParams } from "react-router-dom";
-import projects from "./projectData";
+import projects from './ProjectData';
 import "./Projects.css"; // or create a new one: ProjectDetails.css
 import "./ProjectDetails.css"; // or create a new one: ProjectDetails.css
+
 function ProjectDetails() {
   const { id } = useParams();
   const project = projects.find(p => p.id === id);
