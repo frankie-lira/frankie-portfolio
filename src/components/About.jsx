@@ -55,12 +55,10 @@ function About() {
 
         <section role="region" aria-labelledby="experience-heading">
           <h3 id="experience-heading">Experience</h3>
-          <ul>
-            <li><strong>Adobe</strong> — Accessibility PM (2023–Present)</li>
-            <li><strong>Inclusive Interaction Lab</strong> — Student Researcher (2022–2023)</li>
-            <li><strong>BART</strong> — Front-End Developer Intern (2021)</li>
-            <li><strong>Hack Merced</strong> — Media & Marketing Chair (2021–Present)</li>
-          </ul>
+            <p><strong>Adobe</strong> — Accessibility PM (2023–Present)</p>
+            <p><strong>Inclusive Interaction Lab</strong> — Student Researcher (2022–2023)</p>
+            <p><strong>BART</strong> — Front-End Developer Intern (2021)</p>
+            <p><strong>Hack Merced</strong> — Media & Marketing Chair (2021–Present)</p>
         </section>
 
         <section role="region" aria-labelledby="skills-heading">
