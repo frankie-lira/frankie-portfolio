@@ -17,21 +17,17 @@ function About() {
           alt="Francisco holding a banana while an AI mislabels him as 94% banana, highlighting Francisco with a green bounding box and assigning 0% to the actual banana with a red bounding box."
         />
 
-        <p>
-          I'm Francisco — a Product Manager who started off in mobile dev, stumbled into accessibility, and now leads strategy and
-          compliance work at Adobe. I like to think of myself as a practical idealist with a healthy skepticism of anything labeled
-          “disruptive.”
-        </p>
-        <p>
-          Lately, I’ve been exploring AI — leading internal initiatives at Adobe, building personal projects, and attending the
-          occasional hackathon to see what actually works beyond the slide decks. I’m especially interested in where AI creates real
-          value and ships features that solve real problems, not just synthetic ones.
-        </p>
-        <p>
-          I focus on designing inclusive products that prioritize users often overlooked in the tech space. Outside of work, I like to
-          exercise my creative muscles and maintain balance by hiking in questionable footwear, ignoring recipe instructions, or
-          launching yet another accessibility side project.
-        </p>
+<p>
+  I'm Francisco Lira — a Product Manager who began as a mobile software engineer, stumbled into accessibility, and now leads strategy and compliance efforts at Adobe. I'm currently part of Adobe’s Ethical Innovation team, where I help drive accessibility across Photoshop, Lightroom, Stock, and Content Credentials. I like to think of myself as a practical idealist with a healthy skepticism of anything labeled “disruptive.”
+</p>
+
+<p>
+  Recently, I’ve been diving into AI — leading internal initiatives at Adobe, building personal projects, and attending AI hackathons to see what actually works beyond the slide decks. I'm especially interested in where AI delivers real value and solves real problems, not just generates synthetic ones.
+</p>
+
+<p>
+  I focus on designing inclusive products that prioritize users often overlooked in the tech space. Outside of work, I like to exercise my creative muscles and maintain balance by hiking in questionable footwear, ignoring recipe instructions, or hacking up another side project.
+</p>
       </div>
 
       <div className="about-sections">
