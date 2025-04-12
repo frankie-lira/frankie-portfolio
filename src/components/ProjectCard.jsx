@@ -1,3 +1,5 @@
+import './ProjectCard.css';
+
 function ProjectCard({ title, image, year }) {
     const id = title.replace(/\s+/g, '-').toLowerCase(); // For unique IDs
   

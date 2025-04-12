@@ -1,9 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-import ProjectGallery from './components/ProjectGallery';
+import Projects from './components/Projects';
 import About from './components/About';
 import Experience from './components/Experience';
+
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <main className="main-content">
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/projects" element={<ProjectGallery />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>

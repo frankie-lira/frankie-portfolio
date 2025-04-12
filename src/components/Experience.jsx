@@ -1,3 +1,5 @@
+import './Experience.css';
+
 function Experience() {
     return (
       <section
@@ -5,7 +7,7 @@ function Experience() {
         role="region"
         aria-labelledby="experience-heading"
       >
-        <h2 id="experience-heading">Experience</h2>
+        <h2 id="Experience-heading">Experience</h2>
         <ul>
           <li>
             <strong>Adobe</strong> — Accessibility PM (2023–Present)

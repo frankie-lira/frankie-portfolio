@@ -1,4 +1,5 @@
 import ProjectCard from './ProjectCard';
+import './Projects.css';
 
 const projects = [
   {
@@ -33,7 +34,7 @@ const projects = [
   },
 ];
 
-function ProjectGallery() {
+function Projects() {
   return (
     <section className="gallery">
       {projects.map((proj, idx) => (
@@ -43,4 +44,5 @@ function ProjectGallery() {
   );
 }
 
-export default ProjectGallery;
+
+export default Projects;
