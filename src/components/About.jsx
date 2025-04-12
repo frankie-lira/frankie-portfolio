@@ -20,12 +20,17 @@ function About() {
         <div className="about-text">
           <h2 id="about-heading">About Me</h2>
           <p>
-            I'm Francisco — a Product Manager who started off in mobile dev, stumbled into accessibility, and now leads strategy
-            and compliance work at Adobe. I like to think of myself as a practical idealist with a healthy skepticism of anything labeled “disruptive.”
+            I'm Francisco Lira, a Product Manager who started out as a mobile software engineer, stumbled into accessibility, and now leads strategy
+            and compliance work at Adobe. I’m currently part of Adobe’s Ethical Innovation team, leading accessibility strategy and compliance efforts across Photoshop, Lightroom, Stock, and Content Credentials.
+            I like to think of myself as a practical idealist with a healthy skepticism of anything labeled “disruptive.”
           </p>
           <p>
-            I focus on building inclusive products that serve people usually left out of the conversation. Outside of work,
-            you'll find me cooking too much food for one person, hiking with questionable shoes, or spinning up another accessibility side project.
+          Lately, I’ve been exploring AI, leading internal initiatives at Adobe, building personal projects, and attending the occasional hackathon to see what actually works beyond the slide decks. 
+          I’m especially interested in where AI creates real value and ships features that solve real problems, not just synthetic ones.
+          </p>
+          <p>
+          I focus on designing inclusive products that prioritize users often overlooked in the tech space.
+          Outside of work, I like to exercise my creative muscles and maintain balance by hiking in questionable footwear, ignoring recipe instructions, or launching yet another accessibility side project.
           </p>
         </div>
       </div>
@@ -37,7 +42,16 @@ function About() {
             <strong>University of California, Merced</strong><br />
             B.S. in Computer Science & Engineering<br />
             Minor in Applied Mathematics<br />
-            <em>Graduated Dec 2022</em>
+          </p>
+
+          <p>
+            <strong>CodePath.org</strong><br />
+            HONORS Intermidiate iOS Mobile Developtment<br />
+          </p>
+
+          <p>
+            <strong>CodePath.org</strong><br />
+            HONORS Advanced Web Developtment<br />
           </p>
         </section>
 
