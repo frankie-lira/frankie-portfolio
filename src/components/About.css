@@ -57,11 +57,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  list-style: none;
-  padding: 0;
 }
 
-.skills-list li {
+.skills-list span {
   background-color: #e8f0fe;
   color: #003366;
   padding: 0.4rem 0.75rem;

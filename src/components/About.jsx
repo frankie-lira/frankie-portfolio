@@ -64,17 +64,17 @@ function About() {
         </section>
 
         <section role="region" aria-labelledby="skills-heading">
-          <h3 id="skills-heading">Skills</h3>
-          <ul className="skills-list">
-            <li>Accessibility</li>
-            <li>Inclusive Design</li>
-            <li>Product Strategy</li>
-            <li>User Research</li>
-            <li>React</li>
-            <li>Swift</li>
-            <li>Git</li>
-            <li>Public Speaking</li>
-          </ul>
+        <h3 id="skills-heading">Skills</h3>
+  <div className="skills-list" role="list">
+    <span role="listitem">Accessibility</span>
+    <span role="listitem">Inclusive Design</span>
+    <span role="listitem">Product Strategy</span>
+    <span role="listitem">User Research</span>
+    <span role="listitem">React</span>
+    <span role="listitem">Swift</span>
+    <span role="listitem">Git</span>
+    <span role="listitem">Public Speaking</span>
+  </div>
         </section>
       </div>
 
